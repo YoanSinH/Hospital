@@ -1,10 +1,12 @@
 import React from "react";
+import { Dashboard } from "../Dashboard";
 
 export function DashboardNav(props) {
     const [active, setActive] = React.useState("1");
 
     const handleClick = (e) => {
         setActive(e.target.id);
+        console.log("id",e.target.id);
     };
 
 

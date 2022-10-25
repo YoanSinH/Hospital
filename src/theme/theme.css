@@ -1,9 +1,17 @@
 /*css*/
 .imageBackground {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(222%2c 239%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c810.286C155.155%2c825.552%2c319.567%2c784.052%2c441.215%2c686.544C558.482%2c592.548%2c595.534%2c436.362%2c643.983%2c294.097C688.027%2c164.766%2c731.014%2c32.914%2c709.775%2c-102.05C688.693%2c-236.019%2c606.172%2c-346.396%2c525.979%2c-455.764C439.207%2c-574.103%2c363.244%2c-716.717%2c224.351%2c-764.069C84.11%2c-811.88%2c-71.05%2c-764.134%2c-207.22%2c-705.728C-333.126%2c-651.724%2c-441.493%2c-561.981%2c-515.536%2c-446.714C-583.692%2c-340.612%2c-605.227%2c-213.048%2c-604.704%2c-86.943C-604.232%2c26.694%2c-546.573%2c125.672%2c-512.71%2c234.147C-473.078%2c361.105%2c-477.153%2c505.53%2c-388.736%2c604.885C-289.294%2c716.63%2c-148.866%2c795.639%2c0%2c810.286' fill='%23c6e3ff'%3e%3c/path%3e%3cpath d='M1920 1650.542C2054.317 1672.2 2197.2219999999998 1762.2440000000001 2317.079 1697.866 2436.159 1633.905 2448.507 1469.432 2494.094 1342.18 2535.901 1225.481 2566.237 1110.082 2572.01 986.255 2578.944 837.529 2622.67 667.887 2531.003 550.563 2439.319 433.217 2262.691 440.96299999999997 2118.107 405.308 1980.19 371.297 1842.019 310.399 1704.712 346.79499999999996 1566.021 383.558 1438.862 477.59799999999996 1370.163 603.563 1305.824 721.533 1377.9850000000001 866.65 1349.5639999999999 997.984 1317.8490000000002 1144.538 1136.848 1272.87 1195.4560000000001 1410.888 1253.551 1547.6970000000001 1456.376 1535.159 1597.49 1581.835 1704.003 1617.066 1809.243 1632.683 1920 1650.542' fill='%23f6fbff'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1380%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(75%2c 148%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c528.797C107.964%2c534.493%2c229.877%2c556.939%2c315.51%2c490.942C400.661%2c425.317%2c408.686%2c301.954%2c430.836%2c196.756C448.982%2c110.574%2c432.329%2c25.965%2c431.954%2c-62.106C431.506%2c-167.282%2c480.313%2c-279.743%2c428.418%2c-371.226C374.858%2c-465.642%2c264.215%2c-514.656%2c159.343%2c-542.672C55.975%2c-570.286%2c-51.12%2c-553.648%2c-154.745%2c-527.013C-261.403%2c-499.598%2c-371.087%2c-467.142%2c-446.55%2c-386.937C-523.435%2c-305.222%2c-586.136%2c-193.833%2c-573.078%2c-82.396C-560.391%2c25.871%2c-430.677%2c76.976%2c-380.828%2c173.918C-334.538%2c263.94%2c-368.873%2c389.733%2c-294.817%2c458.743C-219.393%2c529.028%2c-102.953%2c523.366%2c0%2c528.797' fill='%231071ff'%3e%3c/path%3e%3cpath d='M1920 1779.145C2065.067 1798.3310000000001 2211.6 1797.96 2348.926 1747.422 2509.832 1688.2060000000001 2675.898 1611.931 2767.754 1467.156 2864.312 1314.97 2897.441 1120.997 2857.953 945.143 2819.614 774.4069999999999 2685.509 646.783 2556.895 528.127 2439.615 419.927 2302.334 343.846 2151.084 293.001 1994.767 240.45299999999997 1826.637 177.18100000000004 1670.458 230.13800000000003 1515.807 282.577 1438.557 446.75199999999995 1332.201 570.669 1226.412 693.925 1075.187 794.473 1048.571 954.707 1021.83 1115.689 1095.27 1281.15 1192.4 1412.284 1279.976 1530.519 1426.896 1576.609 1558.277 1642.8519999999999 1675.7069999999999 1702.0610000000001 1789.622 1761.9009999999998 1920 1779.145' fill='%2386b7ff'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1380'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    filter: blur(3px);
+    width: 100vw;
+    height: 100vh;
 }
 
 .centered {
@@ -12,6 +20,8 @@
     align-items: center;
     height: 100vh;
     margin-bottom: 0px !important;
+    z-index: 9999;
+    position: relative;
 }
 
 .input {
@@ -28,14 +38,14 @@
 }
 
 .buttonprimary {
-    background-color: #C4E4FC;
-    border-color: #C4E4FC;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
     border-radius: 20px;
 }
 
 .buttonprimary:hover {
-    background-color: #E0EFFC;
-    border-color: #E0EFFC;
+    background-color: #3d84ee;
+    border-color: #3d84ee;
     border-radius: 20px;
 }
 
@@ -75,7 +85,7 @@
     transform: translate(0px, -2px);
 }
 
-.iconcircle{
+.iconcircle1{
     background-color: #60c9a2;
     padding-top: 8px;
     border-radius: 100px;
@@ -86,6 +96,17 @@
     display: inline-block;
 }
 
+.iconcircle2 {
+        background-color: #9160c9;
+        padding-top: 8px;
+        border-radius: 100px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 40px;
+        display: inline-block;
+}
+
 .customli{
     border-radius: 20px !important;
 }
@@ -93,6 +114,11 @@
 .cardinfo{
     display: flex;
     justify-content: space-between
+}
+
+.cardbody {
+    display: flex;
+    justify-content: space-between;
 }
 
 .customli:active{

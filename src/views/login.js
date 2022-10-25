@@ -5,7 +5,7 @@ import logo from "../static/logo.svg";
 export function Login() {
     return (
         <>
-        <div className='imageBackground'>
+        <div className='imageBackground'></div>
         <div className="centered mb-3 container">
             <div className="form row justify-content-center align-self-center formcontainer">
             <img src={logo} style={{width: "120px",height: "120px"}} alt=""/>
@@ -21,7 +21,7 @@ export function Login() {
                 </form>
             </div>
         </div>
-        </div>
+        
         </>
     )
 }
