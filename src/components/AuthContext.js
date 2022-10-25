@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
+import axios from "axios";
 //
 
 export const authContext = createContext();
@@ -15,7 +16,28 @@ export const AuthProvider = ({children}) => {
     const [loading, setLoading] = useState(false);
     const [isLogged, setIsLogged] = useState(null);
 
-    const login = async (email, password) => {
+    const login = async(email, password) => {
+        try {
+            const credentials = await axios.get("https://634c7474317dc96a30989f63.mockapi.io/api/v1/users");
+            const user = credentials.data.find(user => user.email === email && user.password === password);
+
+            if(user){
+                delete user.password;
+                localStorage.setItem("gfjagvtgai382_comp", JSON.stringify(user));
+                setUser(user);
+                setIsLogged(true);
+                setRolUser(user.rol);
+            }else{
+                setIsLogged(false);
+                console.log("no pai");//FLAG
+                return false
+            }
+        } catch (error) {
+            console.log("login", error);
+        }
+    }
+
+    /*const login = async (email, password) => {
         const credentials = await axios.get("https://634c7474317dc96a30989f63.mockapi.io/api/v1/users");
         const user = credentials.data.find(user => user.email === email && user.password === password);
         if(user){
@@ -29,16 +51,15 @@ export const AuthProvider = ({children}) => {
             console.log("no pai");//FLAG
             return false;
         }
-    }
+    }*/
 
     const logout = () => {
         setIsLogged(false);
         console.log("delogeao");//flag
     }
 
-
     useEffect(() => {
-        const unsubscribe = auth.onAuthStateChanged(user => {
+        const unsubscribe = (user => {
             setUser(user);
             setIsLogged(true);
             setLoading(false);
