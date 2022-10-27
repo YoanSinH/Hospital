@@ -1,6 +1,6 @@
 import React from "react";
 
-import { DashboardNav } from "./dashboard/dashboard-nav";
+import { DashboardNav } from "./Dashboard/dashboard-nav";
 
 export function Dashboard() {
 
